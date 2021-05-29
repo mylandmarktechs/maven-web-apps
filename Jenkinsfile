@@ -1,5 +1,5 @@
 //Jenkins pipeline script
-//Groovy script for ebay
+//Groovy script 
 
 node{
   def mavenHome = tool name: 'maven3.8.1'
@@ -14,6 +14,11 @@ node{
     sh "${mavenHome}/bin/mvn sonar:sonar"
   // execute the CodeQuality report with sonar
   }
+  stage('emailQualityIssues') {
+    emailext body: '''Thanks
+
+Landmark Technologies''', recipientProviders: [developers()], subject: 'status of build', to: 'mylandmarktech@gmail.com'
+  }
 
    stage('UploadNexus') {
     sh "${mavenHome}/bin/mvn deploy"
@@ -23,7 +28,7 @@ node{
   stage('DeployTomcat') {
     deploy adapters: [tomcat9(credentialsId: 'tomcat', path: '', url: 'http://34.239.155.145:7000/')], contextPath: null, war: 'target/*war'
   }
-  stage('emailNotification') {
+  stage('emailDeployIssues') {
     emailext body: '''Thanks
 
 Landmark Technologies''', recipientProviders: [developers()], subject: 'status of build', to: 'mylandmarktech@gmail.com'
