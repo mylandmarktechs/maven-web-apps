@@ -1,5 +1,7 @@
 # if elif and else
 
+running
+
 route = input("Enter the route: ")
 
 if route.casefold() == "sarjapur":
