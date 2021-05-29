@@ -1,5 +1,5 @@
 //Jenkins pipeline script
-//Groovy script 
+//Groovy script for ebay
 
 node{
   def mavenHome = tool name: 'maven3.8.1'
