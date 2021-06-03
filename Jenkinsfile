@@ -9,7 +9,11 @@ node{
   stage('mavenBuild') {
     sh "${mavenHome}/bin/mvn clean package"
   }
-/*
+// multi line comment in groovy script 
+ /*
+ Multi branch jenkins job
+ */
+  /*
   stage('CodeQuality') {
     sh "${mavenHome}/bin/mvn sonar:sonar"
   // execute the CodeQuality report with sonar
