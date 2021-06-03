@@ -9,7 +9,7 @@ node{
   stage('mavenBuild') {
     sh "${mavenHome}/bin/mvn clean package"
   }
-
+/*
   stage('CodeQuality') {
     sh "${mavenHome}/bin/mvn sonar:sonar"
   // execute the CodeQuality report with sonar
@@ -33,5 +33,5 @@ Landmark Technologies''', recipientProviders: [developers()], subject: 'status o
 
 Landmark Technologies''', recipientProviders: [developers()], subject: 'status of build', to: 'mylandmarktech@gmail.com'
   }
-  
+ */ 
 }
