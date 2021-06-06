@@ -18,7 +18,7 @@
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/log4.png" alt="" width="100">
+		<img src="images/log4.png" alt="" width="200">
 	</span>
 	<span style="font-weight: bold;">
 		Landmark Technology, 
