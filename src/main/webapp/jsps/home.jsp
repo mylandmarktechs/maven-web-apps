@@ -10,8 +10,8 @@
 </head>
 <body>
 <h1 align="center">Landmark Technologies</h1>
-<h2 align="center"> Welcome to Landmark Technology Associates.
-	Special testimony and thanksgiving session coming up on Sunday June 27, 2021
+<h2 align="center"> Welcome to Landmark Technology.
+	Special testimony and thanksgiving session coming up on Sunday June 27, 2021 come and be blessed
 	Landmark Technology is a an ideal online training  platform for DevOps, Plaform and Cloud Engineers. 
 	We offer interview preparations and job assitance.
 	The shout of the King is in our midst. His name is JESUS.  HE IS OUR SUCCESS ACCESS KEY THIS IS THE DEVELOPMENT ENVIRONMENT</h2>
