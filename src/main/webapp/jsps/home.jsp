@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Landmark Technologies</h1>
-<h2 align="center"> Welcome to Landmark Technology.
+<h2 align="center"> Welcome to Landmark Technology Limited.
 	Special testimony and thanksgiving session coming up on Sunday June 27, 2021
 	Landmark Technology is a an ideal online training  platform for DevOps, Plaform and Cloud Engineers. 
 	We offer interview preparations and job assitance.
