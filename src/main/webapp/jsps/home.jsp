@@ -14,7 +14,8 @@
 	Special testimony and thanksgiving session coming up on Sunday June 27, 2021
 	Landmark Technology is a an ideal online training  platform for DevOps, Plaform and Cloud Engineers. 
 	We offer interview preparations and job assitance.
-	The shout of the King is in our midst. His name is JESUS.  HE IS OUR SUCCESS ACCESS KEY</h2>
+	The shout of the King is in our midst. His name is JESUS.  HE IS OUR SUCCESS ACCESS KEY. Today we keep own giving thanks for the good things the Lord has done in our lives
+	Whatever you belive in, all we say is that there is an Almighty being that is above all and his name is God. May your new week bring more successes</h2>
 <hr>
 <div style="text-align: center;">
 	<span>
