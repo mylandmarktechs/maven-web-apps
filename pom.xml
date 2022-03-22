@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.88.40.215:8081/repository/fintech-paypal_releases/</url>
+	      <url>http://44.203.71.19:8081/repository/malafi_banktool-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.88.40.215:8081/repository/fintech-paypal_snapshot/</url>
+	      <url>Nexus snapshot repo: http://44.203.71.19:8081/repository/malafi_banktoo-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
