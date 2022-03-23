@@ -91,11 +91,7 @@
 			<scope>provided</scope>
 		</dependency>
 		
-	</dependencies>
-http://3.86.199.66:8081/repository/malafi_banktool-releases/
-http://3.86.199.66:8081/repository/malafi_banktool-snapshot/
-
-	
+	</dependencies>	
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
