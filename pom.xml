@@ -92,18 +92,21 @@
 		</dependency>
 		
 	</dependencies>
+http://3.86.199.66:8081/repository/malafi_banktool-releases/
+http://3.86.199.66:8081/repository/malafi_banktool-snapshot/
+
 	
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://44.203.71.19:8081/repository/malafi_banktool-releases/</url>
+	      <url>http://3.86.199.66:8081/repository/malafi_banktool-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://44.203.71.19:8081/repository/malafi_banktoo-snapshot/</url>
+	      <url>http://3.86.199.66:8081/repository/malafi_banktool-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
