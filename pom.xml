@@ -90,19 +90,20 @@
 			<version>3.1.0</version>
 			<scope>provided</scope>
 		</dependency>
-
+http://100.26.186.240:8081/repository/wells-fago-snapshot/
+http://100.26.186.240:8081/repository/wells-fago-eleases/
 	</dependencies>	
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://100.26.186.240:8081/repository/mulafibanktool_releases/</url>
+	      <url>http://100.26.186.240:8081/repository/wells-fago-eleases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://100.26.186.240:8081/repository/mulafibanktool_snapshot/</url>
+	      <url>http://100.26.186.240:8081/repository/wells-fago-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
