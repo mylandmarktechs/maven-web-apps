@@ -9,7 +9,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">Landmark Technologies Worldwide</h1>
+<h1 align="center">Landmark Technologies Universal</h1>
 <h2 align="center"> Welcome to Landmark Technology.
 	Special testimony and thanksgiving session coming up on Sunday June 27, 2021 come and be blessed
 	Landmark Technology is a an ideal online training  platform for DevOps, Plaform and Cloud Engineers. 
