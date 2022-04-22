@@ -100,7 +100,7 @@
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
 
-	      <url> http://172.31.86.176:8081/repository/boa-dev-release/</url>
+	      <url> http://3.87.143.8:6060/repository/fintech-release/</url>
 
 	    </repository>
 	    
@@ -108,7 +108,7 @@
 	      <id>nexus</id>
 
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.86.176:8081/repository/boa-dev-snapshot/</url>
+	      <url>http://3.87.143.8:6060/repository/fintech-snapshot/</url>
 
 	    </snapshotRepository>
 	    
