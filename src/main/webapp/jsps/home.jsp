@@ -10,11 +10,11 @@
 </head>
 <body>
 <h1 align="center">Landmark Technologies</h1>
-<h2 align="center"> Welcome to Landmark Technology.
-	Special testimony and thanksgiving session coming up on Sunday June 27, 2021
-	Landmark Technology is a an ideal online training  platform for DevOps, Plaform and Cloud Engineers. 
-	We offer interview preparations and job assitance.
-	The shout of the King is in our midst. His name is JESUS.  HE IS OUR SUCCESS ACCESS KEY</h2>
+<h2 align="center"> Welcome to our household.
+	My dream of becoming DevOps Engineer is non-negotiable
+	I love mama zee, 2022 is my year of positive transformation. 
+	I love DevOps and I won't give up on my DevOps Dreams.
+	Zahra will soon start walking on her 2 legs </h2>
 <hr>
 <div style="text-align: center;">
 	<span>
