@@ -1,0 +1,37 @@
+node{
+  def mavenHome = tool name: 'maven3.8.5'
+  stage('1Clone'){
+    git branch: 'master', credentialsId: 'Git-Credentials', url: 'https://github.com/Temmydayz/maven-web-apps'
+  }
+  stage('2MavenBuild'){
+    sh "${mavenHome}/bin/mvn clean package"
+   // bat 'mvn package'
+  }
+  stage('3CodeQuality'){
+    sh "${mavenHome}/bin/mvn sonar:sonar"
+  }
+  stage('4UploadArtifact'){
+    sh "${mavenHome}/bin/mvn deploy"
+}
+  stage ('5Deploy2UAT'){
+     deploy adapters: [tomcat9(credentialsId: 'Git-Credentials3', path: '', url: 'http://3.90.86.197:8000/')], contextPath: null, war: 'target/*war' 
+  }
+  stage('7.approval'){
+      timeout(time:8, unit:'HOURS'){
+        input message: 'Please approve deployment to Production'
+      }
+        }
+        stage('8.Deploy2prod'){
+        sshagent(['agent1-credentials']) {
+        sh "scp -o StrictHostKeyChecking=no target/*.war ec2-user@3.90.86.197:/opt/tomcat9/webapps/zahra.war"
+        }
+        }
+       stage('9. EmailAlerts'){
+    emailext body: '''Hi,
+
+Please review build status for amazon app.
+
+Regards,
+Temmydayz''', recipientProviders: [developers(), requestor(), contributor()], subject: 'Project Status', to: 'ajifasron@gmail.com, akinsadeteslim@gmail.com'
+       } 
+}
