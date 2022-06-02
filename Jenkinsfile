@@ -11,7 +11,7 @@ node{
   }
 /*
   stage('CodeQuality') {
-    sh "${mavenHome}/bin/mvn sonar:sonar"
+    //sh "${mavenHome}/bin/mvn sonar:sonar"
   // execute the CodeQuality report with sonar
   }
   stage('emailQualityIssues') {
