@@ -1,0 +1,4 @@
+ - name: Deploy to tomcat
+      copy:
+        src: index.html
+        dest: /var/www/html/
