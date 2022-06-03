@@ -1,4 +1,4 @@
  - name: Deploy to tomcat
       copy:
-        src: /target/maven-web-app.war
+        src: /var/lib/jenkins/workspace/jen-ans-tom/target/maven-web-app.war
         dest: /opt/tomcat9/webapp/
