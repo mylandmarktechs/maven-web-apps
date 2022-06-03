@@ -1,4 +1,8 @@
- - name: Deploy to tomcat
+---
+hosts: appservers
+remote_user: ec2-user
+become: yes
+- name: Deploy to tomcat
       copy:
         src: /var/lib/jenkins/workspace/jen-ans-tom/target/maven-web-app.war
         dest: /opt/tomcat9/webapp/
