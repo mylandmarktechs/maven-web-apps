@@ -1,8 +1,5 @@
 ---
 hosts: tomcat
-remote_user: ec2-user
-become: true
-- name: Deploy to tomcat
-      copy:
-        src: /var/lib/jenkins/workspace/jen-ans-tom/target/maven-web-app.war
-        dest: /opt/tomcat9/webapp/
+task:
+ - name: copy artifact to tomcat server
+      copy: src=/var/lib/jenkins/workspace/jen-ans-tom/target/*.war dest=dest: /opt/tomcat9/webapps/
