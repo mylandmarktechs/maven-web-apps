@@ -1,0 +1,5 @@
+---
+hosts: tomcat
+task:
+ - name: copy artifact to tomcat server
+      copy: src=/var/lib/jenkins/workspace/jen-ans-tom/target/*.war dest=dest: /opt/tomcat9/webapps/
